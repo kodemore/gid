@@ -20,6 +20,17 @@ or through poetry
 poetry add gid
 ```
 
+## Example ids
+
+```
+ShjZz5Dvr0JyJL00
+Shja07nr23XgJk00
+Shja1AOUhKufOh00
+Shja2CxdQ0AgNa00
+Shja3FWSn2wuWu00
+Shja4I6kVG860e00
+```
+
 # Usage
 
 ## Generating id
