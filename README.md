@@ -1,4 +1,4 @@
-# Gid
+# Gid <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Gid is a small library for generating short globally unique, sortable uri safe identifiers.
 
 ## Features
