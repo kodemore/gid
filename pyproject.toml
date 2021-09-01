@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gid"
-version = "1.1.0"
+version = "1.0.0"
 description = "Gid is a small library for generating short globally unique, sortable uri safe identifiers."
 authors = [
     "Dawid Kraczkowski <dawid.kraczkowski@gmail.com>"
