@@ -1,4 +1,4 @@
-# Gid
+# Gid <br> [![Release](https://github.com/kodemore/gid/actions/workflows/release.yml/badge.svg)](https://github.com/kodemore/gid/actions/workflows/release.yml) [![Linting and Tests](https://github.com/kodemore/gid/actions/workflows/main.yaml/badge.svg)](https://github.com/kodemore/gid/actions/workflows/main.yaml) [![codecov](https://codecov.io/gh/kodemore/gid/branch/main/graph/badge.svg?token=N6AROCAN9S)](https://codecov.io/gh/kodemore/gid) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Gid is a small library for generating short globally unique, sortable uri safe identifiers.
 
 ## Features
