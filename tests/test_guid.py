@@ -26,6 +26,7 @@ def test_generate_guid() -> None:
         values.append(Guid())
 
     assert len(values) == len(tuple(values))
+    print(values)
 
     previous = None
     for current in values:

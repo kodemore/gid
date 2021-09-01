@@ -23,12 +23,15 @@ poetry add gid
 ## Example ids
 
 ```
-ShjZz5Dvr0JyJL00
-Shja07nr23XgJk00
-Shja1AOUhKufOh00
-Shja2CxdQ0AgNa00
-Shja3FWSn2wuWu00
-Shja4I6kVG860e00
+ShmX2HaaUB9UQL02 
+ShmX2JGvSk4ZyZ13 
+ShmX2Ku8mDizRc23 
+ShmX2MWQVL5J7022 
+ShmX2OCegs4MdP22 
+ShmX2Pu2MDVFHa02 
+ShmX2RYngGET4Z32 
+ShmX2TCM6v701q23 
+ShmX2UrBjxNGYM11
 ```
 
 # Usage
@@ -68,4 +71,4 @@ The below diagram represents single identifier's structure, which is 16-characte
                   + last two characters to ensure uniqueness of guid in a single millisecond
 ```
 
-> Within 1 ms there can be 62^2 unique generated ids on a single machine.
+> Within 1 ms there can be (62^2 - 256) unique generated ids on a single machine.

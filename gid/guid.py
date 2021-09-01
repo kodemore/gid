@@ -90,8 +90,9 @@ class Guid:
             for i in range(0, HASH_LENGTH - UNIQUENESS_LEVEL):
                 cls._latest_random_sequence[i] = random.randint(0, BASE62_LENGTH - 1)
 
+            # gently randomise last characters of hash so ids look a bit better
             for i in range(0, UNIQUENESS_LEVEL):
-                cls._latest_random_sequence[HASH_LENGTH - i - 1] = 0
+                cls._latest_random_sequence[HASH_LENGTH - i - 1] = random.randint(0, 9)
 
         result: str = ""
         for i in cls._latest_random_sequence:
