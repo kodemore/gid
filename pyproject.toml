@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "gid"
+version = "1.1.0"
+description = "Gid is a small library for generating short globally unique, sortable uri safe identifiers."
+authors = [
+    "Dawid Kraczkowski <dawid.kraczkowski@gmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://github.com/kodemore/gid"
+repository = "https://github.com/kodemore/gid"
+documentation = "https://github.com/kodemore/gid"
+
+keywords = ["guid", "id", "short", "sortable", "uri-safe", "urisafe", "uri", "safe"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+# Requirements
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.1.0"
+pytest-cov = "^2.5"
+pytest-mock = "^1.9"
+black = "^20.8b1"
+isort = "^5.6.4"
+mypy = "^0.812"
+pylint = "^2.7.2"
