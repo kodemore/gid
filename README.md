@@ -71,4 +71,4 @@ The below diagram represents single identifier's structure, which is 16-characte
                   + last two characters to ensure uniqueness of guid in a single millisecond
 ```
 
-> Within 1 ms there can be (62^2 - 256) unique generated ids on a single machine.
+> Within 1 ms there can be (62^2 - 620) unique generated ids on a single machine.
